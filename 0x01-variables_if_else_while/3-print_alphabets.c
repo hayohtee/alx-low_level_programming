@@ -14,7 +14,7 @@ int main(void)
 
 	ch = 'A';
 	for (i = 0; i < 26; i++)
-		putchar(ch + 1);
+		putchar(ch + i);
 
 	putchar('\n');
 
