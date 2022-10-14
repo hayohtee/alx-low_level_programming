@@ -13,7 +13,7 @@ int main(void)
 	{
 		char value = ch + i;
 
-		if (value != 'q' || value != 'e')
+		if (value == 'q' || value == 'e')
 			putchar(value);
 	}
 
