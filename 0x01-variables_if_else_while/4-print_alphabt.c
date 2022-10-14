@@ -14,7 +14,8 @@ int main(void)
 		char value = ch + i;
 
 		if (value == 'q' || value == 'e')
-			putchar(value);
+			continue;
+		putchar(value);
 	}
 
 	putchar('\n');
