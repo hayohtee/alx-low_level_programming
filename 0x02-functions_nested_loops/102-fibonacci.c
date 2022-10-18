@@ -13,7 +13,7 @@ int main(void)
 	next = 2;
 
 	printf("%lu, %lu, ", prev, next);
-	for (i = 2; i <= 50; i++)
+	for (i = 1; i <= 50; i++)
 	{
 		unsigned long int temp = prev + next;
 
