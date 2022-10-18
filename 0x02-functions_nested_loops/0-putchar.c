@@ -1,13 +1,20 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
-  * main - The entry point for the program
-  * Return: The exit code
-  */
+* main - prints putchar
+* Return: The exit code
+*/
 int main(void)
 {
-	puts("_putchar");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
 	return (0);
 }
