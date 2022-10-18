@@ -7,23 +7,24 @@
  */
 int main(void)
 {
-	unsigned long int prev, next, i;
+	long int i, j, k, next;
 
-	prev = 1;
-	next = 2;
+	j = 1;
 
-	printf("%lu, %lu, ", prev, next);
-	for (i = 1; i <= 50; i++)
+	k = 2;
+
+	for (i = 1; i <= 50; ++i)
 	{
-		unsigned long int temp = prev + next;
-
-		prev = next;
-		next = temp;
-
-		if (i == 50)
-			printf("%lu\n", temp);
-		else
-			printf("%lu, ", temp);
+		if (j != 20365011074)
+		{
+			printf("%ld, ", j);
+		} else
+		{
+			printf("%ld\n", j);
+		}
+		next = j + k;
+		j = k;
+		k = next;
 	}
 
 	return (0);
