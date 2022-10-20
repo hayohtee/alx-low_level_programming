@@ -1,14 +1,19 @@
 #include "main.h"
 
 /**
-  * print_line - draw straight line
-  * @n: number of times
-  */
+* print_line -> printing line
+* @n: integer params
+*/
 void print_line(int n)
 {
-	while (n--)
+	int x;
+
+	if (n <= 0)
+		_putchar('\n');
+	else
 	{
-		_putchar('-');
+		for (x = 0; x < n; x++)
+			_putchar(95);
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
