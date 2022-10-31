@@ -2,11 +2,11 @@
 
 /**
  * _memset - Fills memory with a constant byte.
- * @s: A memory area
+ * @s: The source address.
  * @b: The constant byte.
- * @n: The number of bytes to fill
+ * @n: The number of bytes to fill.
  *
- * Return: the enconde string.
+ * Return: The source address.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
